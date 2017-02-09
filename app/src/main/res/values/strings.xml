@@ -3,6 +3,7 @@
     <string name="openMessage">Enter values and press a button. </string>
     <string name="errorMessage">Please enter a value into every field.</string>
     <string name="summaryMessage">Your Summary to Date</string>
+    <string name="monthlySummaryMessage">Your Monthly Payment Summary</string>
     <string name="enterHVal">Home Value: </string>
     <string name="enterLVal">Loan Amount: </string>
     <string name="enterInterest">Interest Rate: </string>
@@ -19,5 +20,8 @@
     <string name="totalPaidAmount">Total Paid: </string>
     <string name="totalTaxAmount">Total Property Tax Paid: </string>
     <string name="totalHOAAmount">Total HOA Fee Paid: </string>
+    <string name="monthlyMortAmount">Monthly Mortgage Paid: </string>
+    <string name="monthlyHOAAmount">Monthly HOA Fee Paid: </string>
+    <string name="monthlyTotalAmount">Total Amount Paid: </string>
 
 </resources>

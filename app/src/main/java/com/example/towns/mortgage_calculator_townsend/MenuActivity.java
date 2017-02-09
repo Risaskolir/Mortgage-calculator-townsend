@@ -94,7 +94,13 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(allValsFilled() == true){
+                    Intent payIntent = new Intent(MenuActivity.this,paySummActivity.class);
+                    String[] calcValues = performCalcs();
+                    payIntent.putExtra("monthlyMort", calcValues[3]);
+                    payIntent.putExtra("monthlyHOA",monthlyHOAVal.toString());
+                    payIntent.putExtra("totalMonthlyPayment", calcValues[4]);
 
+                    startActivity(payIntent);
                 }
                 else{
                     errorTextView.setVisibility(View.VISIBLE);
