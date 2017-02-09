@@ -1,16 +1,23 @@
 <resources>
     <string name="app_name">Mortgage-calculator-townsend</string>
-    <string name="message1">Enter values and press a button. </string>
+    <string name="openMessage">Enter values and press a button. </string>
+    <string name="errorMessage">Please enter a value into every field.</string>
+    <string name="summaryMessage">Your Summary to Date</string>
     <string name="enterHVal">Home Value: </string>
     <string name="enterLVal">Loan Amount: </string>
     <string name="enterInterest">Interest Rate: </string>
-    <string name="enterAPR">APR: </string>
     <string name="enterTerm">Loan Term: </string>
-    <string name="enterStartDate">Start Date: </string>
+    <string name="enterStartDate">Start Year: </string>
     <string name="enterPropTax">Property Tax: </string>
     <string name="enterInsurance">Ins. Per Year: </string>
     <string name="enterHOA">Monthly HOA: </string>
     <string name="payButton">Payment Summary</string>
     <string name="mortButton">Mortgage Summary</string>
+    <string name="totalLoanAmount">Total Cost of Loan with Interest: </string>
+    <string name="totalInterestAmount">Total Cost of Interest: </string>
+    <string name="yearlyTaxAmount">Yearly Property Tax: </string>
+    <string name="totalPaidAmount">Total Paid: </string>
+    <string name="totalTaxAmount">Total Property Tax Paid: </string>
+    <string name="totalHOAAmount">Total HOA Fee Paid: </string>
 
 </resources>
